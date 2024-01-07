@@ -11,14 +11,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18dp"
-            android:text="MSSV:"
+            android:text="MSSV :"
             android:textStyle="bold"
             />
         <EditText
             android:id="@+id/edt_mssv"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="20201234"
+            android:hint="20201111"
             android:inputType="number"
             />
 
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18dp"
-            android:text="Full Name:"
+            android:text="Họ và tên :"
 
             android:textStyle="bold"
         />
@@ -42,7 +42,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Date of birth:"
+            android:text="Ngày sinh :"
             android:textStyle="bold"
             android:textSize="18dp"
            />
@@ -54,7 +54,7 @@
             android:id="@+id/edt_date"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:hint="03/10/2002"
+            android:hint="01/01/2002"
             android:layout_weight="4"
             android:inputType="datetime"
             />
@@ -74,7 +74,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Country :"
+        android:text="Quê quán :"
         android:textStyle="bold"
         android:textSize="18dp"
         />
@@ -83,7 +83,7 @@
             android:id="@+id/autoCountry"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Choose Country"
+            android:hint="Nhập tên tỉnh thành"
             android:completionThreshold="1"/>
 
     <Button
@@ -91,8 +91,8 @@
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:textSize="16dp"
-        android:text="SAVE"
-        android:layout_gravity="center"
+        android:text="Lưu"
+        android:layout_gravity="right"
 
         />
 </LinearLayout>
